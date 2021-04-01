@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     //1 : Khai báo biến
     EditText mEdtSoThu1, mEdtSoThu2;
     TextView mTvKetQua;
-    Button mBtnCong, mBtnTru, mBtnNhan, mBtnChia;
+    Button mBtnCong, mBtnTru, mBtnNhan, mBtnChia, mBtnReset;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
         //2 : Ánh xạ
         mEdtSoThu1 = findViewById(R.id.editTextSoThu1);
         mEdtSoThu2 = findViewById(R.id.editTextSoThu2);
+        mTvKetQua = findViewById(R.id.ButtonKetQua);
+        mBtnReset = findViewById(R.id.ButtonReset);
         mBtnCong = findViewById(R.id.ButtonCong);
         mBtnTru = findViewById(R.id.ButtonTru);
         mBtnNhan = findViewById(R.id.ButtonNhan);
