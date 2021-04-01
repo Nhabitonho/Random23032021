@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         //ctrl + P : xem tham số truyền vào
         // @ : được gọi là annotation
         // context :
-        Toast.makeText();
+        Toast.makeText(this,"Thong Bao", Toast.LENGTH_LONG).show();
 
 
 
