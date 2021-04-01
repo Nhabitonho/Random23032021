@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     //1 : Khai báo biến
@@ -26,6 +27,18 @@ public class MainActivity extends AppCompatActivity {
         mBtnTru = findViewById(R.id.ButtonTru);
         mBtnNhan = findViewById(R.id.ButtonNhan);
         mBtnChia = findViewById(R.id.ButtonChia);
+
+        //Hiển thị thông báo
+
+        //built-in function
+        //ctrl + P : xem tham số truyền vào
+        // @ : được gọi là annotation
+        // context :
+        Toast.makeText();
+
+
+
+
 
     }
 }
