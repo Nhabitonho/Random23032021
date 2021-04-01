@@ -3,6 +3,7 @@ package com.example.random23032021;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -33,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         //built-in function
         //ctrl + P : xem tham số truyền vào
         // @ : được gọi là annotation
-        // context :
         Toast.makeText(this,"Thong Bao", Toast.LENGTH_LONG).show();
 
-
+        //kiểm tra dữ liệu system
+        Log.d("AAA", mBtnReset.getText().toString());
 
 
 
