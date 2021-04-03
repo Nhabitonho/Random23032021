@@ -40,7 +40,6 @@
         android:inputType="number"
         android:maxLength="5"
         android:textColor="#E91E63" />
-
     <TextView
         android:id="@+id/ButtonKetQua"
         android:textSize="20sp"
@@ -66,7 +65,6 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="120sp"
             android:layout_marginRight="120sp" />
-
         <Button
             android:id="@+id/ButtonTru"
             android:textStyle="bold"
@@ -111,6 +109,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
-
 
 </LinearLayout>
